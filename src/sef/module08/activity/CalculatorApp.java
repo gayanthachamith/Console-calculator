@@ -24,7 +24,7 @@ public class CalculatorApp {
 
             double firstNumber = Double.parseDouble(input);
 
-            System.out.print("Enter operation (+, -, *, /): ");
+            System.out.print("Enter operation (+, -, *, /, %): ");
             char operation = scanner.next().charAt(0);
 
             System.out.print("Enter second number: ");

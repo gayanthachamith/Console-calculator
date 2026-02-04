@@ -28,6 +28,11 @@ public class Calculator {
                     throw new ArithmeticException("Division by zero is not allowed");
                 }
                 return a / b;
+            case '%':
+                if (b == 0.0){
+                    throw new ArithmeticException("Division by zero is not allowed");
+                }
+                return a % b;
             default:
                 throw new IllegalArgumentException("Invalid operator");
         }
